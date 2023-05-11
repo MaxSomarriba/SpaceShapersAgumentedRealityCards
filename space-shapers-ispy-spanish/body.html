@@ -1,0 +1,122 @@
+<!-- Copyright (c) 2022 8th Wall, Inc. -->
+<!-- body.html is optional; elements will be added to your html body after app.js is loaded. -->
+
+<div id="nextbutton" style="display: none; z-index: 10">
+    <img src="assets/Retry_Clicked.png" height="50" width="50">
+  </div>
+  
+  <a-scene
+    next-button
+    xrextras-gesture-detector
+    landing-page
+    xrextras-loading
+    xrextras-runtime-error
+    renderer="colorManagement:true; webgl2: true;"
+    xrweb="disableWorldTracking: true">
+  
+    <a-assets>
+      <a-asset-item id="tappyISpy" src="assets/TappyLooking.glb"></a-asset-item>
+      <a-asset-item id="balancingISpy" src="assets/AnimatedBBhalf.glb"></a-asset-item>
+      <a-asset-item id="samISpy" src="assets/SamLookingAnimation555.glb"></a-asset-item>
+      <a-asset-item id="ziggyISpy" src="assets/ZIggyLookingAnimated5x5x5.glb"></a-asset-item>
+  
+      <!-- iSpy Colors -->
+      <audio id="iSpyColorRed" src="assets/Sounds/ISpyColor1Spanish.mp3"></audio>
+      <audio id="iSpyColorBlue" src="assets/Sounds/ISpyColor4Spanish.mp3" ></audio>
+      <audio id="iSpyColorGreen" src="assets/Sounds/ISpyColor2Spanish.mp3" ></audio>
+      <audio id="iSpyColorYellow" src="assets/Sounds/ISpyColor3Spanish.mp3"></audio>
+  
+      <!-- iSpy Flavor -->
+      <audio id="iSpyFlavorSalty" src="assets/Sounds/ISpyTaste1Spanish.mp3" ></audio>
+      <audio id="iSpyFlavorSour" src="assets/Sounds/ISpyTaste2Spanish.mp3"></audio>
+      <audio id="iSpyFlavorSavory" src="assets/Sounds/ISpyTaste3Spanish.mp3" ></audio>
+      <audio id="iSpyFlavorSweet" src="assets/Sounds/ISpyTaste4Spanish.mp3" ></audio>
+  
+      <!-- iSpy Shape -->
+      <audio id="iSpyShapeCircle" src="assets/Sounds/ISpyShape1Spanish.mp3" ></audio>
+      <audio id="iSpyShapeDiamond" src="assets/Sounds/ISpyShape1Spanish.mp3" ></audio>
+      <audio id="iSpyShapeSquare" src="assets/Sounds/ISpyShape3Spanish.mp3" ></audio>
+      <audio id="iSpyShapeTriangle" src="assets/Sounds/ISpyShape4Spanish.mp3" ></audio>
+  
+      <!-- iSpy Size -->
+      <audio id="iSpySizeLong" src="assets/Sounds/ISpySize1Spanish.mp3" ></audio>
+      <audio id="iSpySizeSmall" src="assets/Sounds/ISpySize2Spanish.mp3" ></audio>
+      <audio id="iSpySizeTall" src="assets/Sounds/ISpySize3Spanish.mp3" ></audio>
+      <audio id="iSpySizeWide" src="assets/Sounds/ISpySize4Spanish.mp3" ></audio>
+  
+      <!-- iSpy Texture -->
+      <audio id="iSpyTextureBumpy" src="assets/Sounds/ISpyTexture1Spanish.mp3"></audio>
+      <audio id="iSpyTextureFurry" src="assets/Sounds/ISpyTexture2Spanish.mp3" ></audio>
+      <audio id="iSpyTextureRough" src="assets/Sounds/ISpyTexture3Spanish.mp3" ></audio>
+      <audio id="iSpyTextureSmooth" src="assets/Sounds/ISpyTexture4Spanish.mp3"></audio>
+  
+    </a-assets>
+  
+    <a-camera
+      id="camera"
+      position="0 4 10"
+      raycaster="objects: .cantap"
+      cursor="fuse: false; rayOrigin: mouse;">
+    </a-camera>
+  
+    <a-entity
+        light="type: directional;
+           intensity: 0.8;
+           castShadow: true;
+           shadowMapHeight:2048;
+           shadowMapWidth:2048;
+           shadowCameraTop: 10;
+           target: #model;"
+        position="1 4.3 2.5"
+        xrextras-attach="target: model; offset: 1 15 3;"
+        shadow>
+    </a-entity>
+  
+    <a-light type="ambient" intensity="0.5"></a-light>
+  
+    <xrextras-named-image-target name="model-target1" id="model-target1" sound="src: #iSpyColorRed" playsound>
+      <a-entity
+        id="mainEntity" 
+        
+        animation-mixer="loop: repeat"
+        shadow="receive: false">
+      </a-entity>
+    </xrextras-named-image-target>
+  
+    <xrextras-named-image-target name="model-target2" id="model-target2" sound="src: #iSpyFlavorSalty" playsound>
+      <a-entity
+        id="mainEntity2" 
+        
+        animation-mixer="loop: repeat"
+        shadow="receive: false">
+      </a-entity>
+    </xrextras-named-image-target>
+  
+    <xrextras-named-image-target name="model-target3" id="model-target3" sound="src: #iSpyShapeCircle" playsound>
+      <a-entity
+        id="mainEntity3" 
+        
+        animation-mixer="loop: repeat"
+        shadow="receive: false">
+      </a-entity>
+    </xrextras-named-image-target>
+  
+    <xrextras-named-image-target name="model-target4" id="model-target4" sound="src: #iSpySizeLong" playsound>
+      <a-entity
+        id="mainEntity4" 
+        
+        animation-mixer="loop: repeat"
+        shadow="receive: false">
+      </a-entity>
+    </xrextras-named-image-target>
+  
+    <xrextras-named-image-target name="model-target5" id="model-target5" sound="src: #iSpyTextureBumpy" playsound>
+      <a-entity
+        id="mainEntity5" 
+        
+        animation-mixer="loop: repeat"
+        shadow="receive: false">
+      </a-entity>
+    </xrextras-named-image-target>
+  </a-scene>
+  

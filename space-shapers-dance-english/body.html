@@ -1,0 +1,104 @@
+<!-- Copyright (c) 2022 8th Wall, Inc. -->
+
+<a-scene
+  xrextras-gesture-detector
+  landing-page
+  xrextras-loading
+  xrextras-runtime-error
+  renderer="colorManagement:true; webgl2: true;"
+  xrweb="disableWorldTracking: true">
+
+  <a-assets>
+    <a-asset-item id="tappyDance" src="assets/TappyKickStep.glb"></a-asset-item>
+    <a-asset-item id="ziggyDance" src="assets/ZiggyBoxStep.glb"></a-asset-item>
+    <a-asset-item id="samDance" src="assets/SamStepTouch.glb"></a-asset-item>
+    <a-asset-item id="balancingBallDance" src="assets/BBArmWave.glb"></a-asset-item>
+    <a-asset-item id="allFourDance" src="assets/AllFourCharactersSSRemoveBBHead.glb"></a-asset-item>
+
+    <!-- Audio Licensing
+    Music by: https://www.bensound.com
+    License code: IVSROHUTD7XK8MUJ
+    License code: LCGYSYOEE9WD7VIN
+    License code: EFU316MAVK4Q21GI
+    License code: UJQNU2DSZQ2ME4D3
+    License code: OKRIAUDLXKMESUDW -->
+
+    <audio id="danceTrack1" src="assets/Sounds/letsDanceEnergy.mp3" preload="auto"></audio>
+    <audio id="danceTrack2" src="assets/Sounds/letsDanceHipJazz.mp3" preload="auto"></audio>
+    <audio id="danceTrack3" src="assets/Sounds/letsDanceJazzcomedy.mp3" preload="auto"></audio>
+    <audio id="danceTrack4" src="assets/Sounds/letsDanceJazzyfrenchy.mp3" preload="auto"></audio>
+    <audio id="danceTrack5" src="assets/Sounds/letsDanceUkulele.mp3" preload="auto"></audio>
+  </a-assets>
+
+  <a-camera
+    position="0 4 10"
+    raycaster="objects: .cantap"
+    cursor="fuse: false; rayOrigin: mouse;">
+  </a-camera>
+
+  <a-entity
+      light="type: directional;
+         intensity: 0.8;
+         castShadow: true;
+         shadowMapHeight:2048;
+         shadowMapWidth:2048;
+         shadowCameraTop: 10;
+         target: #model;"
+      position="1 4.3 2.5"
+      xrextras-attach="target: model; offset: 1 15 3;"
+      shadow>
+  </a-entity>
+
+  <a-light type="ambient" intensity="0.5"></a-light>
+
+  <xrextras-named-image-target name="model-target1" id="model-target1" sound="src: #danceTrack1" playsound>
+    <a-entity
+      id="mainEntity" 
+      gltf-model="#samDance"
+      scale=".8 .8 .8"
+      animation-mixer="loop: repeat"
+      shadow="receive: false">
+    </a-entity>
+  </xrextras-named-image-target>
+
+  <xrextras-named-image-target name="model-target2" id="model-target2" sound="src: #danceTrack2" playsound>
+    <a-entity
+      id="mainEntity" 
+      gltf-model="#balancingBallDance"
+      scale=".8 .8 .8"
+      animation-mixer="loop: repeat"
+      shadow="receive: false">
+    </a-entity>
+  </xrextras-named-image-target>
+
+  <xrextras-named-image-target name="model-target3" id="model-target3" sound="src: #danceTrack3" playsound>
+    <a-entity
+      id="mainEntity" 
+      gltf-model="#tappyDance"
+      scale=".8 .8 .8"
+      animation-mixer="loop: repeat"
+      shadow="receive: false">
+    </a-entity>
+  </xrextras-named-image-target>
+
+  <xrextras-named-image-target name="model-target4" id="model-target4" sound="src: #danceTrack4" playsound>
+    <a-entity
+      id="mainEntity" 
+      gltf-model="#ziggyDance"
+      scale=".8 .8 .8"
+      animation-mixer="loop: repeat"
+      shadow="receive: false">
+    </a-entity>
+  </xrextras-named-image-target>
+
+  <xrextras-named-image-target name="model-target5" id="model-target5" sound="src: #danceTrack5" playsound>
+    <a-entity
+      id="mainEntity" 
+      gltf-model="#allFourDance"
+      scale = ".3 .3 .3"
+      animation-mixer="loop: repeat"
+      shadow="receive: false">
+    </a-entity>
+  </xrextras-named-image-target>
+
+</a-scene>
