@@ -19,4 +19,4 @@ applications search for one of the 4 target images provided in the card deck.
 
 
 QR CODES
-![Alt text](spaceShapersDanceEnglishQRCode.png)
+![Alt text](spaceShapersDanceEnglishQRCode.png "Space Shapers Dance English QR Code")
