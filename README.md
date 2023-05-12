@@ -24,23 +24,36 @@ and music can be heard.
 # QR Codes
 ### Space Shapers Dance English QR Code
 <!-- ![Alt text](qr-codes/spaceShapersDanceEnglishQRCode.png "Space Shapers Dance English QR Code") -->
-<img src ="qr-codes/spaceShapersDanceEnglishQRCode.png" alt="Space Shapers Dance English QR Code" width="50%" height="50%" title="Space Shapers Dance English QR Code">
+<img src ="qr-codes/spaceShapersDanceEnglishQRCode.png" width="50%" height="50%" title="Space Shapers Dance English QR Code">
+
 ### Space Shapers Dance Spanish QR Code
-![Alt text](qr-codes/spaceShapersDanceSpanishQRCode.png "Space Shapers Dance Spanish QR Code")
+<!-- ![Alt text](qr-codes/spaceShapersDanceSpanishQRCode.png "Space Shapers Dance Spanish QR Code") -->
+<img src ="qr-codes/spaceShapersDanceSpanishQRCode.png" width="50%" height="50%" title="Space Shapers Dance Spanish QR Code">
+
+
 ### Space Shapers iSpy English QR Code
-![Alt text](qr-codes/spaceShapersiSpyEnglishQRCode.png "Space Shapers iSpy English QR Code")
+<!-- ![Alt text](qr-codes/spaceShapersiSpyEnglishQRCode.png "Space Shapers iSpy English QR Code") -->
+<img src ="qr-codes/spaceShapersiSpyEnglishQRCode.png" width="50%" height="50%" title="Space Shapers iSpy English QR Code">
+
 ### Space Shapers iSpy Spanish QR Code
-![Alt text](qr-codes/spaceShapersiSpySpanishQRCode.png "Space Shapers iSpy Spanish QR Code")
+<!-- ![Alt text](qr-codes/spaceShapersiSpySpanishQRCode.png "Space Shapers iSpy Spanish QR Code") -->
+<img src ="qr-codes/spaceShapersiSpySpanishQRCode.png" width="50%" height="50%" title="Space Shapers iSpy Spanish QR Code">
 
 # Example Cards
 ## Dance Cards
 ### Sam Dance Card
-![Alt text](cards/danceSamCard.png "Sam Dance Card")
+<!-- ![Alt text](cards/danceSamCard.png "Sam Dance Card") -->
+<img src ="cards/danceSamCard.png" width="50%" height="50%" title="Sam Dance Card">
+
 ### Tappy Dance Card
-![Alt text](cards/danceTappyCard.png "Tappy Dance Card")
+<!-- ![Alt text](cards/danceTappyCard.png "Tappy Dance Card") -->
+<img src ="cards/danceTappyCard.png" width="50%" height="50%" title="Tappy Dance Card">
 
 ## iSpy Cards
 ### Color iSpy Card
-![Alt text](cards/iSpyAColorCard.png "Color iSpy Card")
+<!-- ![Alt text](cards/iSpyAColorCard.png "Color iSpy Card") -->
+<img src ="cards/iSpyAColorCard.png" width="50%" height="50%" title="Color iSpy Card">
+
 ### Texture iSpy Card
-![Alt text](cards/iSpyATextureCard.png "Texture iSpy Card")
+<!-- ![Alt text](cards/iSpyATextureCard.png "Texture iSpy Card") -->
+<img src ="cards/iSpyATextureCard.png" width="50%" height="50%" title="Texture iSpy Card">
