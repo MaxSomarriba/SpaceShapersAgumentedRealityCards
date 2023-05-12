@@ -24,6 +24,6 @@ applications search for one of the 4 target images provided in the card deck.
 ## Space Shapers Dance Spanish QR Code
 ![Alt text](spaceShapersDanceSpanishQRCode.png "Space Shapers Dance Spanish QR Code")
 ## Space Shapers iSpy English QR Code
-![Alt text](spaceShapersISpyEnglishQRCode.png "Space Shapers iSpy English QR Code")
+![Alt text](spaceShapersiSpyEnglishQRCode.png "Space Shapers iSpy English QR Code")
 ## Space Shapers iSpy Spanish QR Code
-![Alt text](spaceShapersISpySpanishQRCode.png "Space Shapers iSpy Spanish QR Code")
+![Alt text](spaceShapersiSpySpanishQRCode.png "Space Shapers iSpy Spanish QR Code")
