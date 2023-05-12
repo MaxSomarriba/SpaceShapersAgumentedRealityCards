@@ -8,7 +8,7 @@ i spy and dance projects.
 Space Shapers is a project that aims to teach children about the importance of
 spacial awareness and how to use it to their advantage. The code in this repo is
 for the augmented reality card deck included in the Space Shapers prototype. The
-prototype was created for Austin PBS as a project under UT Austin's Texas Immersive
+prototype was created for Austin PBS as a project under the University of Texas at Austin's Texas Immersive
 Institute. 
 
 # How to use it
