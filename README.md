@@ -23,7 +23,8 @@ and music can be heard.
 
 # QR Codes
 ### Space Shapers Dance English QR Code
-![Alt text](qr-codes/spaceShapersDanceEnglishQRCode.png "Space Shapers Dance English QR Code")
+<!-- ![Alt text](qr-codes/spaceShapersDanceEnglishQRCode.png "Space Shapers Dance English QR Code") -->
+<img src ="qr-codes/spaceShapersDanceEnglishQRCode.png" alt="Space Shapers Dance English QR Code" width="50%" height="50%" title="Space Shapers Dance English QR Code">
 ### Space Shapers Dance Spanish QR Code
 ![Alt text](qr-codes/spaceShapersDanceSpanishQRCode.png "Space Shapers Dance Spanish QR Code")
 ### Space Shapers iSpy English QR Code
