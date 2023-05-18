@@ -1,7 +1,7 @@
 # Project Introduction
 This is a repo containing all my code written for the web based augmented reality side
 of the Space Shapers project. Each of the four folders contains the .html and .js files
-for the respective projects including both a English and Spanish version of the 
+for the respective projects including both an English and Spanish version of the 
 i spy and dance projects.
 
 # What is Space Shapers?
